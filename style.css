@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+/*********  Superior Menu  ***********/
+#Top-menu {
+    background-image: url(./imagens/river-6858013_1280.jpg);
+    color:beige;
+}
+
+#Superior-MenuTitle {
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+#text-superiormenu {
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+/********** Info ************/
+
+#info-menu {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon {
+    margin: 50px 0 50px 100px;
+    padding: 25px;
+    width: 50px;
+    height: 40px;
+}
+
+.textinfomenu-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/******** About *********/
+
+#about-info {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#about-info-text {
+    margin-left: 200px;
+    padding-top: 200px;
+    font-weight: lighter;
+}
+
+#about-info-image {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-weight: lighter;
+}
+
+#image-about {
+    margin: 50px 100px 50px ;
+    border-radius: 30px;
+}
+
+/************* Form **************/
+
+#form{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    min-height: 30vh;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #303030;
+    text-align: center;
+}
+
+#form-text {
+    font-size: 15px;
+    margin-left: 10px;
+    color:#eaece5;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    background-color: #eaece5;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #c07212;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color:#eaece5;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #f0ad32;
+    color:#F9F9F9;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #255468;
+    transition-duration: 0.5s;
+}
